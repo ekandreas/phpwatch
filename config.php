@@ -2,10 +2,10 @@
     $PW2_CONFIG = array(
         'db_scheme' => 'MySQL',
         'db_info' => array(
-            'host' => '',
-            'user' => '',
+            'host' => 'localhost',
+            'user' => 'root',
             'pass' => '',
-            'db' => ''
+            'db' => 'phpwatch'
         ),
         'path' => dirname(__FILE__),
     );
