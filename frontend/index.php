@@ -1,4 +1,5 @@
 <?php
+    error_reporting(E_ALL ^ E_NOTICE);
     require_once(dirname(__FILE__) . '/../common.php');
     require_once(PW2_PATH . '/frontend/GuiHelpers.php');
     require_once(PW2_PATH . '/frontend/FormHelpers.php');
